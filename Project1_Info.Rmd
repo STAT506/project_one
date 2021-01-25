@@ -1,0 +1,67 @@
+---
+title: "Project 1 Info"
+output:
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.height=4, fig.width=10)
+options(show.signif.stars = FALSE)
+```
+
+
+## Project Overview
+
+Future projects that focus on specific correlation structure, such as hierarchical models, will include a suggested dataset, but for the first course project you will select a dataset to explore generalized linear models. The data should either be binary, counts, or ordinal responses.
+
+You are welcome to work individually or with one partner for this project. For the report, you should identify a research question of interest to explore with data visualization and regression modeling. 
+
+The report should contain sections such as introduction, data overview + data visualization, statistical procedures, and results and discussion. The following is a rubric that will be used to assess the report. 
+All items are graded with the following scheme, where some have multipliers:
+
+1. __No Credit__: Criterion was not addressed or was written in a way that was not understandable.
+
+2. __Beginning__:  Ideas are not clear and supporting ideas are not presented.
+
+3. __Developing__: Ideas are identified but not well supported and developed or are minimally supported and developed.
+
+4. __Advanced__: Ideas are clearly identified and are adequately supported and developed.
+
+| __Report generalities__ | __Points__  | __Multiplier__|
+|:------------------------|---|---:|
+|Spelling, grammar, writing clarity | /12  |  3 |
+|Paragraphs, section labels | /4  | 1 |
+|Appendix with complete code |  /4 |  1 |
+|Figures (reporting, labels, captions) included in text|  /4 |  1 |
+|Citations for papers and packages used | /4  |  1 |
+|Acknowledgments for other resources | /4  |  1 |
+
+| __Introduction__ | __Points__  | __Multiplier__ |
+|:------------------------|---|---:|
+|Project motivation |  /4 |  1 |
+|Data source and study design | /4  |  1 |
+|Research question | /4  |  1 |
+
+| __Data Overview + Data Visualization__ | __Points__  | __Multiplier__ |
+|:------------------------|---|---:|
+|Variables with units and descriptive statistics |  /4 |  1 |
+|Titles, Labels, and Captions | /4  | 1 |
+|Figure Clarity | /4  | 1|
+|Figure Quality | /4  | 1|
+
+| __Statistical Procedures__ | __Points__  | __Multiplier__ |
+|:------------------------|---|---:|
+|Define model to fit (with complete notation) | /8  |  2 |
+|Defense of model choice| /4 | 1 |
+|Discuss model fitting procedure |  /4 |  1 |
+
+| __Results__ | __Points__  | __Multiplier__ |
+|:------------------------|---|---:|
+|State and assess model assumptions |/8   |  2 |
+|Concise evidence statement for estimated model | /4  | 1 |
+|Summarize estimates from final model (intervals) |/4   |  1 |
+
+| __Discussion__ | __Points__  | __Multiplier__ |
+|:------------------------|---|---:|
+|Discuss Results in the context of the research question |  /4 |  1 |
+|Scope of Inference: how can the results be generalized? | /4  |  1 |
